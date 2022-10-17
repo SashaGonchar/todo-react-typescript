@@ -2,7 +2,6 @@ import React from "react";
 import {AllTasksButton} from "./AllTasksButton/AllTasksButton";
 import {ITasksListItem, TasksListItem} from "./TasksListItem/TasksListItem";
 import {ReactComponent as CloseIcon} from '../../assets/icons/close.svg';
-import {ReactComponent as CloseWithoutBg} from '../../assets/icons/closeWithoutBg.svg';
 import {ReactComponent as AddIcon} from '../../assets/icons/add.svg';
 
 export function SideBar() {
