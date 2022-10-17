@@ -116,6 +116,11 @@ code {
     gap: 10px;
     padding-bottom: 20px;
     border-bottom: 1px solid #f2f2f2;
+
+
+    &.tasks__items-row {
+      margin-bottom: 0;
+    }
   }
 
   &__title {
@@ -299,11 +304,13 @@ code {
   height: 15px;
 }
 
+.tasks__title {
+  color: rgb(100, 196, 237);
+}
+
 // List
 
 .list {
-  $self: &;
-
   margin-bottom: 30px;
 
   &__add-button {
@@ -326,11 +333,11 @@ code {
     padding: 10px 12px;
     transition: background-color 0.15s ease-in-out;
 
-    &:hover #{$self}__remove-icon {
+    &:hover &__remove-icon {
       opacity: 0.2;
     }
 
-    #{$self}__remove-icon {
+    &__remove-icon {
       opacity: 0;
       transition: opacity 0.15s ease-in-out;
 
