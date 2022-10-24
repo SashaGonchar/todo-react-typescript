@@ -2,7 +2,7 @@ import React from "react";
 import {AllTasksButton} from "./AllTasksButton/AllTasksButton";
 import {ITasksListItem, TasksListItem} from "./TasksListItem/TasksListItem";
 import {TasksListButton} from "./TasksListButton/TasksListButton";
-import {AddListPopup} from "./TaskaListPopup/TasksListPopup";
+import {AddListPopup} from "./TasksListPopup/TasksListPopup";
 
 export function SideBar() {
     const testListsData: ITasksListItem[] = [
